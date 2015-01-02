@@ -80,7 +80,6 @@ cecho "#    FOLDER AND EDIT TO SUIT *YOUR* NEEDS!    #" $red
 cecho "###############################################" $red
 echo ""
 
-echo ""
 cecho "Have you reviewed the scripts you're about to run and " $red
 cecho "understand they will make changes to your computer? (y/n)" $red
 read -r response
