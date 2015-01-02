@@ -2,11 +2,13 @@
 
 Much of this respository comes from [Mathias Bynens'](https://github.com/mathiasbynens/) amazing [dotfiles](https://github.com/mathiasbynens/dotfiles). Mathias' OSX defaults script is legendary. However it is buried within Mathias' own dotfiles repo.  I and others have asked that it be split out into a separate repository.  Mathias prefers it 'as is' (see [here](https://github.com/mathiasbynens/dotfiles/issues/477)).
 
-The idea behind this repo is to create a separate repository to manage OSX defaults and make it slightly more configurable and maybe focus the work the community is doing on the programmatic configuration of OSX.  For example I personally only use about half the settings in the original script and there are some indications that some of the power and sleep settings may even be detrimental.
+The idea behind this repo is to create a separate repository to manage OSX defaults and make it slightly more configurable and maybe focus the work the community is doing on the programmatic configuration of OSX.  For example I personally only use about half the settings in the original script and there are some indications that some of settings may even be detrimental[1].
 
 I believe dotfiles management should be logically separated from your OSX configuration management for the obvious separation of concerns argument.
 * .dotfiles are more portable across OSX and Linux/Unix but obviously OSX defaults are specific to OSX.
 * This allows one to use a purpose-built dotfiles management solution such as Mackup discussed below.
+
+[1] The original script settings turn off your laptop's power saving features (sleep, display dimming, hibernation), removes at least three kinds of backups for data loss (MobileTimeMachine, Resume, hibernation file), and changes AppKit settings in a way your customers will likely not be using (by turning off Automatic Termination).
 
 ## Managing your OSX configuration
 
