@@ -8,7 +8,7 @@ I believe dotfiles management should be logically separated from your OSX config
 * .dotfiles are more portable across OSX and Linux/Unix but obviously OSX defaults are specific to OSX.
 * This allows one to use a purpose-built dotfiles management solution such as Mackup discussed below.
 
-[1] The original script settings turn off your laptop's power saving features (sleep, display dimming, hibernation), removes at least three kinds of backups for data loss (MobileTimeMachine, Resume, hibernation file), and changes AppKit settings in a way your customers will likely not be using (by turning off Automatic Termination).
+_[1] The original script settings turn off your laptop's power saving features (sleep, display dimming, hibernation), remove at least three kinds of backups for data loss (MobileTimeMachine, Resume, and your hibernation file), and changes AppKit settings in a way your customers will likely not be using (by turning off Automatic Termination). From a security view the script forcefully disables GateKeeper as well, with the intention of allowing you to install apps not published in the Mac App Store._
 
 ## Managing your OSX configuration
 
@@ -46,3 +46,7 @@ Advantages:
 * Dropbox is private by default (if you trust it's security) so you don't have to worry about your private information being committed to a public github repository.
 * Dropbox syncs automatically so your dotfiles are **automatically and continously** backed up from that point forward.
 * Mackup understands applications and where they stash configuration data and **also** backs that up for you.  
+
+Resources:
+https://gist.github.com/brandonb927/3195465
+https://github.com/mathiasbynens/dotfiles/blob/master/.osx

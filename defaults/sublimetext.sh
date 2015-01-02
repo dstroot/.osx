@@ -15,12 +15,10 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 # ------------------------------------------------------------------------------
-# NAME:           archive.sh
-# PURPOSE:        Setup archive utility
+# NAME:           sublimetext.sh
+# PURPOSE:        Setup Sublime Text
 # VERSION:  1.0   Initial version
 # ------------------------------------------------------------------------------
 
-echo "Move archive files to trash after expansion"
-# Delete directly: "/dev/null"
-# Leave alone (default) "."
-defaults write com.apple.archiveutility dearchive-move-after -string "~/.Trash"
+# echo "Setting Git to use Sublime Text as default editor"
+# git config --global core.editor "subl -n -w"

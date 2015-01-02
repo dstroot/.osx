@@ -15,12 +15,14 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 # ------------------------------------------------------------------------------
-# NAME:           archive.sh
-# PURPOSE:        Setup archive utility
+# NAME:           missioncontrol.sh
+# PURPOSE:        Setup Mission Control
 # VERSION:  1.0   Initial version
 # ------------------------------------------------------------------------------
 
-echo "Move archive files to trash after expansion"
-# Delete directly: "/dev/null"
-# Leave alone (default) "."
-defaults write com.apple.archiveutility dearchive-move-after -string "~/.Trash"
+# echo "Speed up Mission Control animations"
+# defaults write com.apple.dock expose-animation-duration -float 0.1
+#
+# echo "Don’t group windows by application in Mission Control"
+# echo "(i.e. use the old Exposé behavior instead)"
+# defaults write com.apple.dock expose-group-by-app -bool false
