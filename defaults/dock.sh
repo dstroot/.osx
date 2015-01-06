@@ -23,11 +23,11 @@
 # echo "Enable highlight hover effect for the grid view of a stack (Dock)"
 # defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-# echo "Set the icon size of Dock items to 50 pixels"
-# defaults write com.apple.dock tilesize -int 50
-#
-# echo "Change minimize/maximize window effect"
-# defaults write com.apple.dock mineffect -string "scale"
+echo "Set the icon size of Dock items to 50 pixels"
+defaults write com.apple.dock tilesize -int 50
+
+echo "Change minimize/maximize window effect"
+defaults write com.apple.dock mineffect -string "scale"
 #
 # echo "Minimize windows into their application’s icon"
 # defaults write com.apple.dock minimize-to-application -bool true
@@ -37,9 +37,9 @@
 #
 # echo "Show indicator lights for open applications in the Dock"
 # defaults write com.apple.dock show-process-indicators -bool true
-#
-# echo "Don’t animate opening applications from the Dock"
-# defaults write com.apple.dock launchanim -bool false
+
+echo "Don’t animate opening applications from the Dock"
+defaults write com.apple.dock launchanim -bool false
 
 # echo "Disable Dashboard"
 # defaults write com.apple.dashboard mcx-disabled -bool true
