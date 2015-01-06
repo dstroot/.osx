@@ -23,23 +23,23 @@
 # echo "Enable highlight hover effect for the grid view of a stack (Dock)"
 # defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-echo "Set the icon size of Dock items to 50 pixels"
-defaults write com.apple.dock tilesize -int 50
-
-echo "Change minimize/maximize window effect"
-defaults write com.apple.dock mineffect -string "scale"
-
-echo "Minimize windows into their application’s icon"
-defaults write com.apple.dock minimize-to-application -bool true
-
-echo "Enable spring loading for all Dock items"
-defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
-
-echo "Show indicator lights for open applications in the Dock"
-defaults write com.apple.dock show-process-indicators -bool true
-
-echo "Don’t animate opening applications from the Dock"
-defaults write com.apple.dock launchanim -bool false
+# echo "Set the icon size of Dock items to 50 pixels"
+# defaults write com.apple.dock tilesize -int 50
+#
+# echo "Change minimize/maximize window effect"
+# defaults write com.apple.dock mineffect -string "scale"
+#
+# echo "Minimize windows into their application’s icon"
+# defaults write com.apple.dock minimize-to-application -bool true
+#
+# echo "Enable spring loading for all Dock items"
+# defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
+#
+# echo "Show indicator lights for open applications in the Dock"
+# defaults write com.apple.dock show-process-indicators -bool true
+#
+# echo "Don’t animate opening applications from the Dock"
+# defaults write com.apple.dock launchanim -bool false
 
 # echo "Disable Dashboard"
 # defaults write com.apple.dashboard mcx-disabled -bool true
@@ -68,8 +68,8 @@ defaults write com.apple.dock autohide -bool true
 # echo "Reset Launchpad, but keep the desktop wallpaper intact"
 # find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
-echo "Add iOS Simulator to Launchpad"
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
+# echo "Add iOS Simulator to Launchpad"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
 
 # echo "Add a spacer to the left side of the Dock (where the applications are)"
 # #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'

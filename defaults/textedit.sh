@@ -20,12 +20,12 @@
 # VERSION:  1.0   Initial version
 # ------------------------------------------------------------------------------
 
-echo "Use plain text mode for new TextEdit documents"
-defaults write com.apple.TextEdit RichText -int 0
-
-echo "Open and save files as UTF-8 in TextEdit"
-defaults write com.apple.TextEdit PlainTextEncoding -int 4
-defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+# echo "Use plain text mode for new TextEdit documents"
+# defaults write com.apple.TextEdit RichText -int 0
+#
+# echo "Open and save files as UTF-8 in TextEdit"
+# defaults write com.apple.TextEdit PlainTextEncoding -int 4
+# defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 # # Enable the debug menu in Disk Utility
 # defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true

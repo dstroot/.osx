@@ -28,6 +28,6 @@
 # defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 # defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
 
-echo "Use the system-native print preview dialog in chrome"
-defaults write com.google.Chrome DisablePrintPreview -bool true
-# defaults write com.google.Chrome.canary DisablePrintPreview -bool true
+# echo "Use the system-native print preview dialog in chrome"
+# defaults write com.google.Chrome DisablePrintPreview -bool true
+# # defaults write com.google.Chrome.canary DisablePrintPreview -bool true
