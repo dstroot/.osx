@@ -35,6 +35,9 @@ defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm:ss 
 echo "Automatically quit printer app once the print jobs is complete"
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
+echo "Power Chime"
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
+
 # echo "Save to disk (not to iCloud) by default"
 # defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
