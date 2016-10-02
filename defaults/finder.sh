@@ -101,7 +101,7 @@
 # /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
 # /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
 # /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
-# 
+#
 # echo "Use list view in all Finder windows by default"
 # # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 # defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"

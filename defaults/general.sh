@@ -30,7 +30,7 @@ echo "Menu bar: Set date and time format e.g. Sun 11 Aug 16:55"
 defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm:ss a"
 
 # echo "Disable the sound effects on boot."
-# sudo nvram SystemAudioVolume=" "
+sudo nvram SystemAudioVolume=" "
 
 echo "Automatically quit printer app once the print jobs is complete"
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
